@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+*.key
+*.pem
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Build output
+dist/
+build/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
