@@ -12,7 +12,7 @@ export const Projects = () => {
         <StyledProjects>
             <FlexWrapper justify="space-between" align="center">
                 <SectionTitle icon="#" label="projects" linewidth="511px"/>
-                <StyledView>View all ~~&gt;</StyledView>
+                <View>View all ~~&gt;</View>
             </FlexWrapper>
 
             <FlexWrapper justify="space-between" align="center">
@@ -29,7 +29,7 @@ const StyledProjects = styled.section`
     min-height: 100vh;
 `
 
-const StyledView = styled.span`
+const View = styled.span`
     color: #FFFFFF;
 
 `
